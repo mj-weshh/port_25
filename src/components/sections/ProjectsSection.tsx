@@ -1,5 +1,6 @@
 
-import { ExternalLink, Github, TiktokIcon } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
+import TikTokIcon from '@/components/icons/TikTokIcon';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -70,7 +71,7 @@ const ProjectCard = ({
             {tiktokUrl && (
               <Button size="sm" variant="outline" className="gap-2 border-pink-500 text-pink-500 hover:bg-pink-500/10" asChild>
                 <a href={tiktokUrl} target="_blank" rel="noopener noreferrer">
-                  <TiktokIcon size={16} />
+                  <TikTokIcon size={16} />
                   <span>Follow on TikTok</span>
                 </a>
               </Button>

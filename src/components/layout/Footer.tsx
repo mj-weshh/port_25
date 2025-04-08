@@ -1,5 +1,6 @@
 
-import { Github, Instagram, Linkedin, TiktokIcon } from 'lucide-react';
+import { Github, Instagram, Linkedin } from 'lucide-react';
+import TikTokIcon from '@/components/icons/TikTokIcon';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -52,7 +53,7 @@ const Footer = () => {
               className="social-icon bg-gray-800 hover:bg-gray-700"
               aria-label="TikTok"
             >
-              <TiktokIcon size={20} />
+              <TikTokIcon size={20} />
             </a>
           </div>
         </div>
