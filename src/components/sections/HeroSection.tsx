@@ -1,4 +1,3 @@
-
 import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -17,8 +16,8 @@ const HeroSection = () => {
           </h2>
           
           <p className="text-lg text-gray-400 max-w-2xl">
-            Backend Developer, Mathematics & Computer Science graduate, AI & Cybersecurity enthusiast,
-            and founder of Matime — using technology to solve real-world problems.
+            Founder of Matime, Backend Developer, Mathematics & Computer Science graduate, AI & Cybersecurity enthusiast
+            — using technology to solve real-world problems.
           </p>
           
           <div className="flex flex-wrap gap-4 pt-4">
@@ -45,9 +44,9 @@ const HeroSection = () => {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-john-blue via-john-green to-john-red p-1">
               <div className="w-full h-full rounded-full overflow-hidden bg-john-dark-gray flex items-center justify-center">
-                {/* Replace with actual image once available */}
+                {/* User's profile photo */}
                 <img
-                  src="/placeholder.svg"
+                  src="../../../public/me.png"
                   alt="John Waweru Muhura"
                   className="w-full h-full object-cover"
                 />

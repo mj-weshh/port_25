@@ -11,7 +11,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <h2 className="text-xl font-bold mb-2">
-              John<span className="text-john-blue">.dev</span>
+            <img 
+            src="/logo.png" 
+            alt="John Waweru" 
+            className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-105"
+          />
             </h2>
             <p className="text-sm text-gray-400">
               Backend Developer • AI & Cybersecurity Enthusiast • Founder
@@ -20,7 +24,7 @@ const Footer = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/wawerumuhura" 
+              href="https://github.com/mj-weshh" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon bg-gray-800 hover:bg-gray-700"
@@ -29,7 +33,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/wawerumuhura" 
+              href="https://www.linkedin.com/in/john-waweru-muhura/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon bg-gray-800 hover:bg-[#0077B5]/20"
@@ -38,7 +42,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://instagram.com/wawerumuhura" 
+              href="https://www.instagram.com/mj_weshh/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon bg-gray-800 hover:bg-[#E4405F]/20"
@@ -47,7 +51,7 @@ const Footer = () => {
               <Instagram size={20} />
             </a>
             <a 
-              href="https://tiktok.com/@matime" 
+              href="https://www.tiktok.com/@john_muhura" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon bg-gray-800 hover:bg-gray-700"

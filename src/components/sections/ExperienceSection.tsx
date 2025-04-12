@@ -1,4 +1,3 @@
-
 import { Briefcase, Award, GraduationCap, Shield } from 'lucide-react';
 
 type TimelineItemProps = {
@@ -35,7 +34,7 @@ const TimelineItem = ({ year, title, organization, description, icon, iconBg }: 
 const ExperienceSection = () => {
   const experiences = [
     {
-      year: "2023 - Present",
+      year: "October 2024 - Present",
       title: "Founder & CEO",
       organization: "Matime",
       description: "Leading the development of an AI-powered transportation platform aimed at revolutionizing urban commuting through predictive algorithms and real-time optimization.",
@@ -43,7 +42,7 @@ const ExperienceSection = () => {
       iconBg: "bg-john-green"
     },
     {
-      year: "2023",
+      year: "September 2024 - Present",
       title: "Deputy Campus Director & Judges Coordinator",
       organization: "Hult Prize at MMU",
       description: "Coordinated the prestigious entrepreneurship competition, evaluating innovative solutions for global challenges and mentoring participating teams.",
@@ -51,20 +50,28 @@ const ExperienceSection = () => {
       iconBg: "bg-john-red"
     },
     {
-      year: "2023 - Present",
-      title: "Backend Web Development Program",
-      organization: "ALX ProDev",
+      year: "March 2025 - Present",
+      title: "Backend Web Development Course",
+      organization: "ProDev Backend Web Development",
       description: "Enhancing backend development skills through intensive training in modern web technologies, server architecture, and API development.",
       icon: <GraduationCap size={20} className="text-white" />,
       iconBg: "bg-john-blue"
     },
     {
-      year: "2022 - 2023",
-      title: "Cybersecurity Course Participant",
-      organization: "Online Learning Platform",
-      description: "Completed comprehensive training in network security, penetration testing, and security protocols to build secure and resilient systems.",
-      icon: <Shield size={20} className="text-white" />,
+      year: "May 2024 - September 2024",
+      title: "Software Developer",
+      organization: "Asia Africa Chamber of Commerce",
+      description: "Contributed to the development and maintenance of software solutions facilitating international trade and business relationships between Asia and Africa.",
+      icon: <Briefcase size={20} className="text-white" />,
       iconBg: "bg-purple-600"
+    },
+    {
+      year: "May 2024 - September 2024",
+      title: "ICT and Graphic Design Intern",
+      organization: "Saya Events International",
+      description: "Handled ICT infrastructure and created engaging graphic designs for events, combining technical expertise with creative design skills.",
+      icon: <Briefcase size={20} className="text-white" />,
+      iconBg: "bg-john-red"
     }
   ];
 

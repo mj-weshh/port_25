@@ -1,4 +1,3 @@
-
 import { GraduationCap, Award, Rocket } from 'lucide-react';
 
 const AboutSection = () => {
@@ -36,13 +35,13 @@ const AboutSection = () => {
           <div className="lg:col-span-2 space-y-8">
             <div className="bg-john-light-gray p-6 rounded-lg card-hover">
               <div className="flex items-start gap-4">
-                <div className="bg-john-blue/20 p-3 rounded-lg">
-                  <GraduationCap className="text-john-blue" size={24} />
+                <div className="bg-john-green/20 p-3 rounded-lg">
+                  <Rocket className="text-john-green" size={24} />
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold">Education</h3>
-                  <p className="text-gray-400 mt-2">BSc. Mathematics & Computer Science</p>
+                  <h3 className="text-xl font-semibold">Entrepreneurship</h3>
+                  <p className="text-gray-400 mt-2">Founder of Matime - AI-powered transportation</p>
                 </div>
               </div>
             </div>
@@ -62,13 +61,13 @@ const AboutSection = () => {
             
             <div className="bg-john-light-gray p-6 rounded-lg card-hover">
               <div className="flex items-start gap-4">
-                <div className="bg-john-green/20 p-3 rounded-lg">
-                  <Rocket className="text-john-green" size={24} />
+                <div className="bg-john-blue/20 p-3 rounded-lg">
+                  <GraduationCap className="text-john-blue" size={24} />
                 </div>
                 
                 <div>
-                  <h3 className="text-xl font-semibold">Entrepreneurship</h3>
-                  <p className="text-gray-400 mt-2">Founder of Matime - AI-powered transportation</p>
+                  <h3 className="text-xl font-semibold">Education</h3>
+                  <p className="text-gray-400 mt-2">BSc. Mathematics & Computer Science</p>
                 </div>
               </div>
             </div>

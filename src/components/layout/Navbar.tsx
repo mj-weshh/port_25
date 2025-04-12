@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -39,8 +38,12 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold tracking-tight">
-          John<span className="text-john-blue">.dev</span>
+        <a href="#home" className="flex items-center">
+          <img 
+            src="/logo.png" 
+            alt="John Waweru" 
+            className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-105"
+          />
         </a>
 
         {/* Desktop Navigation */}
