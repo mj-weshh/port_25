@@ -46,7 +46,7 @@ const HeroSection = () => {
               <div className="w-full h-full rounded-full overflow-hidden bg-john-dark-gray flex items-center justify-center">
                 {/* User's profile photo */}
                 <img
-                  src="../../../public/me.png"
+                  src="/port_25/me.png"
                   alt="John Waweru Muhura"
                   className="w-full h-full object-cover"
                 />

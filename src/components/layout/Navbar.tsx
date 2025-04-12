@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#home" className="flex items-center">
           <img 
-            src="/logo.png" 
+            src="/port_25/logo.png" 
             alt="John Waweru" 
             className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-105"
           />
